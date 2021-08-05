@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564483886417",
+    "project_id": "pacekeeper-b1979",
+    "storage_bucket": "pacekeeper-b1979.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564483886417:android:91bf2f22dcc562d2b21770",
+        "android_client_info": {
+          "package_name": "com.pacekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564483886417-kptmtgrcdlsutoh59812ckdqdeiek3do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwRag3D-isMHw2XdZzduWyvBJoFAC6z8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564483886417-kptmtgrcdlsutoh59812ckdqdeiek3do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

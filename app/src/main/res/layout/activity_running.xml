@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/btn_settings"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_settings" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/toobar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/your_goal"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/running_activity_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_running_graph" />
+
+    <FrameLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/layout_btn_choise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_resume"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_bg_circle_pink"
+                android:gravity="center"
+                android:text="@string/resume"
+                android:textAllCaps="true"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_finish"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/selector_bg_circle"
+                android:gravity="center"
+                android:text="@string/finish"
+                android:fontFamily="@font/roboto_bold"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_pause"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_bg_circle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_pause" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_marginLeft="8dp"
+    android:background="@drawable/bg_main_rounded">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="5:30" />
+
+    <View
+        android:id="@+id/margin"
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

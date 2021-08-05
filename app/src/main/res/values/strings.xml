@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Pacekeeper</string>
+    <string name="distance">Distance</string>
+    <string name="mile">mile</string>
+    <string name="pace">Pace</string>
+    <string name="your_time">Your time</string>
+    <string name="start">Start</string>
+    <string name="your_goal">Your goal</string>
+    <string name="map">Map</string>
+    <string name="resume">Resume</string>
+    <string name="finish">Finish</string>
+    <string name="avg_pace">Avg Pace</string>
+    <string name="time">Time</string>
+    <string name="current_data">Current data</string>
+    <string name="Mile">Mile</string>
+    <string name="km">km</string>
+    <string name="current_pace">Current pace</string>
+    <string name="location_dialog">Please turn location services.</string>
+    <string name="turn_on">Turn on</string>
+    <string name="permission_toast">Location permissions not granted</string>
+    <string name="history">History</string>
+    <string name="completed">Goal completed</string>
+    <string name="not_completed">Goal not completed</string>
+    <string name="adio_cues">Audio cues</string>
+    <string name="units_measurments">Units of measurments</string>
+    <string name="miles">Miles</string>
+    <string name="autostop">Auto-Pause</string>
+    <string name="male">Male voice</string>
+    <string name="settings">Settings</string>
+</resources>
